@@ -1,0 +1,6 @@
+{
+  "Name": "group3Project",
+  "ProjectType": "Tests",
+  "Description": "automating naukri.com",
+  "MainFile": "Main.xaml"
+}
