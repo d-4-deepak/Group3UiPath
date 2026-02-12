@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IUyfctkJ4Ee88zXTSGR2YQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="35b1446b-c091-4014-a7f3-84ef69462b5a" CvElementArea="790, 109, 232, 42" CvType="InputBox" DesignTimeRectangle="814, 120, 170, 20" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='jobType' tag='INPUT' /&gt;" Guid="98d43ac6-b126-4532-a0a1-ac438da00241" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 95, 1600, 72" FuzzySelectorArgument="&lt;webctrl class='nI-gNb-header__wrapper' parentid='root' tag='DIV' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Prepare&amp;#xA;Pathfinder&amp;#xA;NCAT&amp;#xA;Expert speak&amp;#xA;Resume maker&amp;#xA;Personalised interview Q/A&amp;#xA;Career guidance&amp;#xA;Interview Experiences&amp;#xA;Speech assessment&amp;#xA;AI Prompt Mastery&amp;#xA;Participate&amp;#xA;Contests&amp;#xA;All India NCAT&amp;#xA;Naukri Campus Young Turks&amp;#xA;Naukri Campus Squad&amp;#xA;Engineers&amp;apos; Ring of Honour&amp;#xA;CareerVerse&amp;#xA;Opportunities&amp;#xA;Recommended jobs&amp;#xA;Job invites&amp;#xA;Jobs from alerts&amp;#xA;Application status&amp;#xA;Saved jobs&amp;#xA;Search jobs here' /&gt;" Guid="91b3a5ec-14d2-48a1-b1b8-04615fcb0a60" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="12e858e94f49c62ab7b643891434cf83.jpg" xmlns="">0lf835-Fl9ECtluyoJvEOQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

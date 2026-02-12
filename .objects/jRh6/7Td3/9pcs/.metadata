@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Apply Confirmation",
+  "Type": "Screen",
+  "Id": "9pcseDEVeUGQzqNAZ0N_qg",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/9pcseDEVeUGQzqNAZ0N_qg",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/7Td3ZkS6oE26kXuGHXQyIQ",
+  "Created": "2026-02-12T12:57:51.4328136Z",
+  "Updated": "2026-02-12T12:57:51.4328136Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7ofgAyMZhUWjmkerVgk1VA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="0bc3d180-dc7e-48f9-adec-9a23a55ac157" CvElementArea="1159, 178, 107, 45" CvTextArea="1195, 192, 51, 14" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1197, 190, 48, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Search' /&gt;" Guid="e276515c-3cd8-4590-86f1-aabffef063e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0bc3d180-dc7e-48f9-adec-9a23a55ac157" CvElementArea="1159, 178, 107, 45" CvTextArea="1195, 192, 51, 14" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1162, 180, 97, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='nI-gNb-sb__icon-wrapper' aaname='Search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search' /&gt;" Guid="bb365056-5544-4dd5-9b3d-4f1b4c724eb5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2bf1a2070949a7d1a6436f5901a72a9f.jpg" xmlns="">0_DMaulHmVkW3VsKGi0C39A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

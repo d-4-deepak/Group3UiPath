@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RIS_ps_-_E2ujKskJeNNFg",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/RIS_ps_-_E2ujKskJeNNFg",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/dhYu3dVcL0OKWC-O8Y810A",
+  "Created": "2026-02-12T12:18:03.7566704Z",
+  "Updated": "2026-02-12T12:18:03.7566704Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

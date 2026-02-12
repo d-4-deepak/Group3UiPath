@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Job",
+  "Type": "Element",
+  "Id": "sPx19NroTUuJDbsTIViGKA",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/sPx19NroTUuJDbsTIViGKA",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/dhYu3dVcL0OKWC-O8Y810A",
+  "Created": "2026-02-12T12:00:11.7425919Z",
+  "Updated": "2026-02-12T12:00:11.7425919Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

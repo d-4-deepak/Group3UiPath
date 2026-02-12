@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="kf42Li1tMU2UsDRnHIjRWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='React.js Developer Jobs In India - 422 React.js Developer Job Vacancies In India - Naukri.com' /&gt;" Url="naukri.com/react-dot-js-developer-jobs-in-india" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4uSRbhGFAEiS2SjWjzxvGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/homepage" CVScreenId="7ee18139-bdea-4e86-828c-4132cc76f97b" CvTextArea="1264, 681, 45, 16" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1238, 679, 336, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logout' innertext='Logout' uipath-html-title='Logout' visibleinnertext='Logout' /&gt;" Guid="8a4c76d1-96d6-4edb-8074-a226b3fd16b6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fresher Jobs - Resume Builder Service - Interview Preparation - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8fde511536e375193586b4e936dbb7fd.jpg" xmlns="">06-3kRGVd206jH9gnoPpFeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

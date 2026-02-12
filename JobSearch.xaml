@@ -1,4 +1,9 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="JobSearch" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="JobSearch" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_data" Type="InArgument(scg:Dictionary(x:String, x:String))" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System</x:String>
@@ -12,6 +17,23 @@
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -34,13 +56,174 @@
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="885,1116" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome My profile - Naukri.com(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,2178" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2007" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="jobTypeSelector" />
+              <Variable x:TypeArguments="x:String" Name="jobTypeName" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT jobType'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="35b1446b-c091-4014-a7f3-84ef69462b5a" ContentHash="BGdkO3ZUFEayzBDlxWUSwQ" CvElementArea="790, 109, 232, 42" CvType="InputBox" DesignTimeRectangle="814, 120, 170, 20" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='jobType' tag='INPUT' /&gt;" Guid="e6f543d0-3b95-4f07-8e94-df23aabdc084" InformativeScreenshot="00b413936a79350778ce33d63b58c737.jpg" Reference="WicDaTARxUamZtE9tcUc5g/qqKPqa1om0K1t4PQJ710BA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="d1c0d736-a631-416e-b87a-fdc5fa9b7885" ContentHash="jYL3HlevVEK3TrkShkcD8g" CvElementArea="558, 187, 25, 24" CvType="ArrowButton" DesignTimeRectangle="558, 188, 26, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" Guid="6e9458ef-3882-46b1-a70e-e558d05a72f9" InformativeScreenshot="963fac3585da6959798cc8e22bbeb8a7.jpg" Reference="WicDaTARxUamZtE9tcUc5g/80mZk_riKkSzXv1CIbtbeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">jobTypeName</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Job"</CSharpValue>
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">jobTypeSelector</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' parentid='sa-dd-scrolljobType' tag='DIV' innertext='Job' /&gt;"</CSharpValue>
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Job'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="29e4ea6c-e634-4c01-9482-22ad72bab02c" ContentHash="rf48lhjoaEmD9r1m4joZ2A" CvElementArea="400, 262, 195, 37" CvType="InputBox" DesignTimeRectangle="420, 272, 155, 18" ElementVisibilityArgument="Interactive" Guid="6d6bfc93-df29-4e5a-a9e8-b17127912465" InformativeScreenshot="354c26b8f5e14d50723b7cd70347f51d.jpg" Reference="WicDaTARxUamZtE9tcUc5g/sPx19NroTUuJDbsTIViGKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.FullSelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">jobTypeSelector</CSharpValue>
+                    </InArgument>
+                  </uix:TargetAnchorable.FullSelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DisplayName="Type Into 'INPUT(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Text="Python developer" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="2289c378-ab8f-4213-957e-5099e53449ee" ContentHash="5-qgKGdo80629ncKiGIIvw" CvTextArea="642, 192, 296, 18" CvTextArgument="Enter keyword / designation / companies" CvType="Text" DesignTimeRectangle="643, 172, 295, 56" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tabindex='0' tag='INPUT' /&gt;" Guid="b86d8a5d-c683-43ec-8f1f-7e6462212257" InformativeScreenshot="e044776ec84a4773c2d1375d146d162a.jpg" Reference="WicDaTARxUamZtE9tcUc5g/RIS_ps_-_E2ujKskJeNNFg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Text="India" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="0bc3d180-dc7e-48f9-adec-9a23a55ac157" ContentHash="M2FMxY65JEuIU5JQ7lMnPQ" CvTextArea="978, 192, 101, 15" CvTextArgument="Enter location" CvType="Text" DesignTimeRectangle="979, 172, 178, 56" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tabindex='0' tag='INPUT' /&gt;" Guid="dbad135b-d8d9-458d-8649-8ca86ab28f82" InformativeScreenshot="991002a0229532b1ba58b2a823861179.jpg" Reference="WicDaTARxUamZtE9tcUc5g/Z7E1yZDMLkiP2-y5oYpBTg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click 'Search(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="daf2b767-5a88-47af-b004-4ba125b38120" ContentHash="g7omYRYnqEGLv5ZA-f-pQA" CvElementArea="1159, 178, 107, 45" CvTextArea="1195, 192, 51, 14" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1162, 180, 97, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='nI-gNb-sb__icon-wrapper' aaname='Search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search' /&gt;" Guid="508798fa-bf03-476d-b9f9-2cf16c0231f2" InformativeScreenshot="4ad782a5d42e476ec6de15726f2a9e58.jpg" Reference="WicDaTARxUamZtE9tcUc5g/53qK1ob0fUWyHjQ6gEm-ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="daf2b767-5a88-47af-b004-4ba125b38120" CvElementArea="1159, 178, 107, 45" CvTextArea="1195, 192, 51, 14" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1197, 190, 48, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Search' /&gt;" Guid="61829422-7707-4972-8540-1a1e62047c34" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="3" Direction="Down" DisplayName="Mouse Scroll 'Python DeveloperIdreamd…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,293" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="30" ScopeIdentifier="20fbfedb-314d-4de1-8653-7378a817ad00" Version="V5">
+              <uix:NMouseScroll.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/python-developer-jobs-in-india" ContentHash="_atNldbLpkaumfXdQ68UvA" DesignTimeRectangle="541, 351, 560, 5848" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='styles_jlc__main__VdwtF' parentid='listContainer' tag='DIV' /&gt;" Guid="48233032-c277-4d16-9dd3-219db7b12736" InformativeScreenshot="6356db2bdd18452750d054bbc5d52388.jpg" Reference="WicDaTARxUamZtE9tcUc5g/cENIk1bNAUOIFLFRF4JfOQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Python Developer Jobs In India - 666 Python Developer Job Vacancies In India - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NMouseScroll.Target>
+            </uix:NMouseScroll>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="-w_1F3h07ESKY32YitLmjQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUzSURBVGhDtZrfbxRVFMf7J/Af4MtsH3yTxkiIRp58MaHx0c62+CJYkED8UZMaqIFGjT+oYlJKxLZWBJR2RRTBSpu0NYKCK5hYEKU2QLARWKEz087Przm3O+vsvbOzM3Nnb/J5OXN35nzvnDPnnts2PbH9ySZZVndgVXOHtlFRjb3NeaOQy2tzOVUr5fI6/keby+X1SZqjqNrG5o6lB/j7pEEwxIWczrUbu8ipakcTUZQVIxjqUXFcWGFpBtMIEQxRNMjxatqNXfxzoxAMYdDK5FS9KDysQSiqNhf3bQgGHiVvdMRZdbV3CUOnbIxN2eg6YArXE6PqpZyqt/L+8AiGILl2jZJUvDnHKwMm+PHbvCvMS0WdkBIMSZ1fv8Pgfa+M98csYX4qIkQIBua8qrcKN6lBZ5+4+v4YP28L89NCocz7GSpgJWHrx7xPlIBzs9Fh1LLJEGw1UfVSWGILAnIqq5jiDWpATtzTPd53NroGxGSm+b2fmExcimQv8v5WOx8z7nm6BpYFEaNT1eFDju8bs6rmpRAAJa/3hApgoRPyg7hQMveOmCxx6ZMatNPnlRdIo3PvsnCfuqh6aXVHaZUggEq5MFkCWnFyPGoEhSYh+BYyWX0ePlRqjbQCgm9hRYCqbRQmpYDChQpY3JFaQOAt+OEjvc+hahxn1YNDRgBt45mALMKns2+Z9y3WkBQACqNMwufGP/HDJjg2dMsJoGaoSclrffyFpKQZVMhaNieoxCGQ7025vCbTErLPZZIxfsGRDh2fZlX7ggQk2jrwRO1G/UHJTQUu0d4nBtT40BdIuJCEKAGNcryCqpcaJoCqcMMcDyAtgL4kwXH1houeIRMPPiPObQTUvMTe+4dBCekP6odf7DfRfdDCywMm1mwS52eNdBKTAGPZwwcFCy/tJ+dNvDZs4o3DFnZ/bKFls/ibrGBJrLCjQPFiXEjARydttuKvHjSxe8TCm0cs9B2z0H/cwrufW3j4uYblwqR0IVu71WCd185BE3tGLLx11MJ7oxb2f2lh8Bsbh76zMTJu46md2Xz7g7BCJruVoGR9od9kbeLbRy22lR44YWPwlI1Pz9g4NmXjxA8Ovj3vsD0T/3sZ2FaCNkT8haQ8ssXA64cs7CtYOPCVheHTNg5P2BidtvH1WYdV36mLDs7Ouuj+MHkbWQvaiJa303LbCWLd8wZLZHL+yISNwozDnD/zs4vpSw5+nHXxyx8u6xfe+SyT8yLW4DMBSn6xJ2RCYh7bZmD4tIXCjI2T58h5BzO/OvjpsouLf7qYnXdx7ZaHm7c9FKZtrJEodBQ+FQEsjCTrgc/j2w3m3ESx7PwVF5euubh83cVc2fnb94DFJaBtT/rE9s+IKk19Vm+BWLvFwPHvbVz4fcX5K9dd/LXg4dYdD3fuA9oSYDtS/cBgVVOf9Vsg1m01MFl0cPWmh/kFD3/f9XB30YO+DNjl/mf9jnQCgid0FQFZvwXi0W0GS96Fkod/NQ+GCTiB5i2NAKWtxsGWTxYNfpCHnjVYEi+ZgFt23m/9kwpQ8voc768goPzXmMxCyYcKmj9SCoh3uMtESFbnWlBzEzx4SSSgxl9rBIOP0pZtPvgERfDXasHHfSwBjRThn2bz9jCinK8rgMip91sbkRMbuutW4ZLy9Eq1jUIwhFE+vZNqfJJhFMMSNgzBEEWjQipAiZ7BPzcKwVCPlc/s4lDIw2VgjtO/MfDPq4dgiAsJKX9uZQrfZFrHfQRDGnwxikrtKfUWwkFBiWzNea1Ac2iujNNB/gOhsBY/JxYPUAAAAABJRU5ErkJggg==" InformativeScreenshot="8ab4f032d6b1a0cfa56031b119f80f88.jpg" Reference="WicDaTARxUamZtE9tcUc5g/dhYu3dVcL0OKWC-O8Y810A" Selector="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" Url="https://www.naukri.com/mnjuser/profile?id=&amp;altresid" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
   </Sequence>
 </Activity>

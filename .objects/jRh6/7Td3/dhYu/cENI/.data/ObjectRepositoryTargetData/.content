@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_atNldbLpkaumfXdQ68UvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/python-developer-jobs-in-india" DesignTimeRectangle="541, 351, 560, 5848" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='styles_jlc__main__VdwtF' parentid='listContainer' tag='DIV' /&gt;" Guid="48233032-c277-4d16-9dd3-219db7b12736" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Python Developer Jobs In India - 666 Python Developer Job Vacancies In India - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6356db2bdd18452750d054bbc5d52388.jpg" xmlns="">0saQdwoJsoEOGyWW0TSqIQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

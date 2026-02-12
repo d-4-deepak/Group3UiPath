@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QoxM_EgEj06PEEjOrOVm6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/python-developer-jobs-in-india" DesignTimeRectangle="541, 735, 560, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='lastCompMark' tag='DIV' /&gt;" Guid="85b38b4b-8a02-4fec-8d46-7765d7ead19d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Python Developer Jobs In India - 666 Python Developer Job Vacancies In India - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="370128be084ba14fd5116279fdc4ca36.jpg" xmlns="">0v-MVnCAvX0qF6kLcH69HYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

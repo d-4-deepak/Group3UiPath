@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5GDvoynmlUeSXa6IkZaPgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/myapply/showAcp" DesignTimeRectangle="1279, 111, 86, 42" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='nI-gNb-drawer__icon' parentid='root' tag='DIV' /&gt;" Guid="32804a18-bd08-4286-9e7e-c1256ac83943" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Apply Confirmation' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1da97b077dcd6cbade161b4a62bbeb89.jpg" xmlns="">0tz4evGgY6E6xVU5NQZUq6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

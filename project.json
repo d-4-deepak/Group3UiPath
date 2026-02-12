@@ -68,6 +68,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "JobSearch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e2d00d5d-6a66-41e6-a4ac-520ff2835f1d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Logout.xaml"
       }
     ],
     "saveToCloud": false
