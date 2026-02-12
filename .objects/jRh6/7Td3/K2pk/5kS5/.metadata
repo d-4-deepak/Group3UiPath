@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Class XII",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5kS5m7jP6USR4ZQH5tZcmw",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/5kS5m7jP6USR4ZQH5tZcmw",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T19:26:38.3351338Z",
+  "Updated": "2026-02-12T19:26:38.3351338Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

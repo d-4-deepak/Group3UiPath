@@ -95,35 +95,35 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="879.6,3132" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="879.6,3844" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Jobseeker's Login Search the Best Jobs" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="523.2,3108.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Jobseeker's Login Search the Best Jobs" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="521.6,3820.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="521.6,2915.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,3627.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486.4,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
                   <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">in_data == null ? "unable to fetcg data" : "Data fetched successfully"</CSharpValue>
                 </InArgument>
               </ui:LogMessage.Message>
             </ui:LogMessage>
-            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="488,60.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
-            <uix:NCheckState DisplayName="Check App State 'Login'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,2612" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="486.4,60.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <uix:NCheckState DisplayName="Check App State 'Login'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,3324" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486.4,1803.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2516" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -152,6 +152,13 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">"Entered email id"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT passwordField'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" ContentHash="ZU1rKmgOnEefGlin3ARusA" CvElementArea="1083, 545, 392, 54" CvType="InputBox" DesignTimeRectangle="1086, 546, 388, 52" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='passwordField' type='password' placeholder='Enter Password' /&gt;" Guid="c960adea-7ba1-490f-9f1b-501c4945d3fd" InformativeScreenshot="7e719d4d82e5e1a65f7318ce00ad5afe.jpg" Reference="WicDaTARxUamZtE9tcUc5g/Aq4q4AFKyUOrkXPhYeSKzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
@@ -175,20 +182,34 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">"Entered Password"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="c0b339c7-c004-4386-bf43-61af9be6f438" ContentHash="-_KmGlaLEESS2UFyqby2HA" CvElementArea="1083, 644, 392, 50" CvTextArea="1255, 660, 48, 21" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1086, 645, 388, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Login' /&gt;" Guid="e2ae9372-d0e9-4614-957b-ea109a2ecda5" InformativeScreenshot="188f48e4153a1b0449772a1666b2c7db.jpg" Reference="WicDaTARxUamZtE9tcUc5g/FMbVX34NMU6g1Ygddiub_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NCheckState DisplayName="Check App State 'Deepak Gupta'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1042.4" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"Click on Login button"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                  <uix:NCheckState DisplayName="Check App State 'Deepak Gupta'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1220" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">
@@ -201,13 +222,13 @@
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,463" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,640.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,281" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
+                        <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,280.8" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
                           <uix:NTakeScreenshot.FileNameMode>
                             <InArgument x:TypeArguments="uix:NFileNameMode">
                               <CSharpValue x:TypeArguments="uix:NFileNameMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">
@@ -217,6 +238,13 @@
                             </InArgument>
                           </uix:NTakeScreenshot.FileNameMode>
                         </uix:NTakeScreenshot>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Error">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">"Login Failed"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
                         <Throw sap:VirtualizedContainerService.HintSize="416,117.6" sap2010:WorkflowViewState.IdRef="Throw_2">
                           <InArgument x:TypeArguments="s:Exception">
                             <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">
@@ -234,13 +262,13 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,463" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,462.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,281" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,280.8" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Version="V5">
                     <uix:NTakeScreenshot.FileNameMode>
                       <InArgument x:TypeArguments="uix:NFileNameMode">
                         <CSharpValue x:TypeArguments="uix:NFileNameMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">
