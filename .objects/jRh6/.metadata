@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Jobseeker's Login Search the Best Jobs available in India & Abroad - Naukri.com",
+  "Type": "App",
+  "Id": "jRh6z_yrzE6IRvgLfBsVYw",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/jRh6z_yrzE6IRvgLfBsVYw",
+  "Created": "2026-02-12T00:42:34.3688211Z",
+  "Updated": "2026-02-12T00:42:34.3688211Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

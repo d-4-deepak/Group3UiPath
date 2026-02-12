@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Jobseeker's Login Search the Best Jobs",
+  "Type": "Screen",
+  "Id": "hH2zXr6n8Uy_chytZacK-Q",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/hH2zXr6n8Uy_chytZacK-Q",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/7Td3ZkS6oE26kXuGHXQyIQ",
+  "Created": "2026-02-12T00:42:34.443825Z",
+  "Updated": "2026-02-12T00:42:34.443825Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

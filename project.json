@@ -6,7 +6,8 @@
   "dependencies": {
     "UiPath.PDF.Activities": "[3.25.2]",
     "UiPath.System.Activities": "[25.12.0-preview]",
-    "UiPath.Testing.Activities": "[25.10.0]"
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[26.1.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -46,6 +47,13 @@
         "testCaseId": "c679ccae-c2fd-415e-aa9e-4165a71ef2ff",
         "testCaseType": "TestCase",
         "fileName": "Main.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f21dfce9-ec35-43c1-ac59-648a178b07ea",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Login.xaml"
       }
     ],
     "saveToCloud": false

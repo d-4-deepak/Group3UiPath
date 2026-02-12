@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JlhuUMok-EShOHJyh70ChQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" CvElementArea="1083, 643, 393, 50" CvTextArea="1255, 660, 48, 21" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1086, 645, 388, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="e3660ea3-59e2-46ab-849f-8f82aa1bb8a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eefc5abd748a782d907838e9348f7044.jpg" xmlns="">07ZCyi9L_MEqgpt4RygL8ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

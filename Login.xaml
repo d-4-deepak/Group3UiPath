@@ -1,0 +1,253 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_data" Type="InArgument(scg:Dictionary(x:String, x:String))" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="879.6,2008" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Chrome Jobseeker's Login Search the Best Jobs" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,1984.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="24706cda-e6bb-48d3-9e4f-528ec28feff7" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,1863.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">in_data == null ? "NULL" : "HAS DATA"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <ui:MaximizeWindow ContinueOnError="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="451.2,60.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" Window="{x:Null}" />
+            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Login'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1560" sap2010:WorkflowViewState.IdRef="NCheckState_1" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Timeout="{x:Null}" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,752" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'INPUT usernameField'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" SecureText="{x:Null}" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" ContentHash="eZ4gfv6yc0K6-U9TI6QE7A" CvElementArea="1085, 434, 391, 55" CvType="InputBox" DesignTimeRectangle="1086, 435, 388, 53" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='usernameField' tag='INPUT' placeholder='Enter Email ID / Username' /&gt;" Guid="7d23b372-930a-4255-9019-e1b8ab1b50cf" InformativeScreenshot="f6633d2035f6c4d5d42aac8c03b3ecea.jpg" Reference="WicDaTARxUamZtE9tcUc5g/249S0laR6kO8Dfd9xvZmDw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">
+                          <CSharpValue.Result>
+                            <OutArgument x:TypeArguments="x:String" />
+                          </CSharpValue.Result>in_data["Email"]</CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'INPUT passwordField'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" SecureText="{x:Null}" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" ContentHash="ZU1rKmgOnEefGlin3ARusA" CvElementArea="1083, 545, 392, 54" CvType="InputBox" DesignTimeRectangle="1086, 546, 388, 52" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='passwordField' type='password' placeholder='Enter Password' /&gt;" Guid="c960adea-7ba1-490f-9f1b-501c4945d3fd" InformativeScreenshot="7e719d4d82e5e1a65f7318ce00ad5afe.jpg" Reference="WicDaTARxUamZtE9tcUc5g/Aq4q4AFKyUOrkXPhYeSKzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">
+                          <CSharpValue.Result>
+                            <OutArgument x:TypeArguments="x:String" />
+                          </CSharpValue.Result>in_data["Password"]</CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="c0b339c7-c004-4386-bf43-61af9be6f438" ContentHash="-_KmGlaLEESS2UFyqby2HA" CvElementArea="1083, 644, 392, 50" CvTextArea="1255, 660, 48, 21" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1086, 645, 388, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Login' /&gt;" Guid="e2ae9372-d0e9-4614-957b-ea109a2ecda5" InformativeScreenshot="188f48e4153a1b0449772a1666b2c7db.jpg" Reference="WicDaTARxUamZtE9tcUc5g/FMbVX34NMU6g1Ygddiub_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,462.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTakeScreenshot ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBeforeScreenshot="{x:Null}" DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,280.8" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" InUiElement="{x:Null}" OutFile="{x:Null}" OutImage="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="24706cda-e6bb-48d3-9e4f-528ec28feff7" Timeout="{x:Null}" Version="V5">
+                    <uix:NTakeScreenshot.FileNameMode>
+                      <InArgument x:TypeArguments="uix:NFileNameMode">
+                        <CSharpValue x:TypeArguments="uix:NFileNameMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">
+                          <CSharpValue.Result>
+                            <OutArgument x:TypeArguments="uix:NFileNameMode" />
+                          </CSharpValue.Result>UiPath.UIAutomationNext.Enums.NFileNameMode.Index</CSharpValue>
+                      </InArgument>
+                    </uix:NTakeScreenshot.FileNameMode>
+                  </uix:NTakeScreenshot>
+                  <Throw sap:VirtualizedContainerService.HintSize="416,117.6" sap2010:WorkflowViewState.IdRef="Throw_1">
+                    <InArgument x:TypeArguments="s:Exception">
+                      <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">
+                        <CSharpValue.Result>
+                          <OutArgument x:TypeArguments="s:Exception" />
+                        </CSharpValue.Result>new Exception("Login popup did not appear")</CSharpValue>
+                    </InArgument>
+                  </Throw>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" ContentHash="JlhuUMok-EShOHJyh70ChQ" CvElementArea="1083, 643, 393, 50" CvTextArea="1255, 660, 48, 21" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1086, 645, 388, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="e3660ea3-59e2-46ab-849f-8f82aa1bb8a9" InformativeScreenshot="eefc5abd748a782d907838e9348f7044.jpg" Reference="WicDaTARxUamZtE9tcUc5g/o240Qhq9d0u9ykTd2LoUnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.CloseMode>
+        <InArgument x:TypeArguments="uix:NAppCloseMode">
+          <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">
+            <CSharpValue.Result>
+              <OutArgument x:TypeArguments="uix:NAppCloseMode" />
+            </CSharpValue.Result>UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.CloseMode>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.OpenMode>
+        <InArgument x:TypeArguments="uix:NAppOpenMode">
+          <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">
+            <CSharpValue.Result>
+              <OutArgument x:TypeArguments="uix:NAppOpenMode" />
+            </CSharpValue.Result>UiPath.UIAutomationNext.Enums.NAppOpenMode.Always</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.OpenMode>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="tMynd3M06UmNhyFKL3NTxA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUzSURBVGhDtZrfbxRVFMf7J/Af4MtsH3yTxkiIRp58MaHx0c62+CJYkED8UZMaqIFGjT+oYlJKxLZWBJR2RRTBSpu0NYKCK5hYEKU2QLARWKEz087Przm3O+vsvbOzM3Nnb/J5OXN35nzvnDPnnts2PbH9ySZZVndgVXOHtlFRjb3NeaOQy2tzOVUr5fI6/keby+X1SZqjqNrG5o6lB/j7pEEwxIWczrUbu8ipakcTUZQVIxjqUXFcWGFpBtMIEQxRNMjxatqNXfxzoxAMYdDK5FS9KDysQSiqNhf3bQgGHiVvdMRZdbV3CUOnbIxN2eg6YArXE6PqpZyqt/L+8AiGILl2jZJUvDnHKwMm+PHbvCvMS0WdkBIMSZ1fv8Pgfa+M98csYX4qIkQIBua8qrcKN6lBZ5+4+v4YP28L89NCocz7GSpgJWHrx7xPlIBzs9Fh1LLJEGw1UfVSWGILAnIqq5jiDWpATtzTPd53NroGxGSm+b2fmExcimQv8v5WOx8z7nm6BpYFEaNT1eFDju8bs6rmpRAAJa/3hApgoRPyg7hQMveOmCxx6ZMatNPnlRdIo3PvsnCfuqh6aXVHaZUggEq5MFkCWnFyPGoEhSYh+BYyWX0ePlRqjbQCgm9hRYCqbRQmpYDChQpY3JFaQOAt+OEjvc+hahxn1YNDRgBt45mALMKns2+Z9y3WkBQACqNMwufGP/HDJjg2dMsJoGaoSclrffyFpKQZVMhaNieoxCGQ7025vCbTErLPZZIxfsGRDh2fZlX7ggQk2jrwRO1G/UHJTQUu0d4nBtT40BdIuJCEKAGNcryCqpcaJoCqcMMcDyAtgL4kwXH1houeIRMPPiPObQTUvMTe+4dBCekP6odf7DfRfdDCywMm1mwS52eNdBKTAGPZwwcFCy/tJ+dNvDZs4o3DFnZ/bKFls/ibrGBJrLCjQPFiXEjARydttuKvHjSxe8TCm0cs9B2z0H/cwrufW3j4uYblwqR0IVu71WCd185BE3tGLLx11MJ7oxb2f2lh8Bsbh76zMTJu46md2Xz7g7BCJruVoGR9od9kbeLbRy22lR44YWPwlI1Pz9g4NmXjxA8Ovj3vsD0T/3sZ2FaCNkT8haQ8ssXA64cs7CtYOPCVheHTNg5P2BidtvH1WYdV36mLDs7Ouuj+MHkbWQvaiJa303LbCWLd8wZLZHL+yISNwozDnD/zs4vpSw5+nHXxyx8u6xfe+SyT8yLW4DMBSn6xJ2RCYh7bZmD4tIXCjI2T58h5BzO/OvjpsouLf7qYnXdx7ZaHm7c9FKZtrJEodBQ+FQEsjCTrgc/j2w3m3ESx7PwVF5euubh83cVc2fnb94DFJaBtT/rE9s+IKk19Vm+BWLvFwPHvbVz4fcX5K9dd/LXg4dYdD3fuA9oSYDtS/cBgVVOf9Vsg1m01MFl0cPWmh/kFD3/f9XB30YO+DNjl/mf9jnQCgid0FQFZvwXi0W0GS96Fkod/NQ+GCTiB5i2NAKWtxsGWTxYNfpCHnjVYEi+ZgFt23m/9kwpQ8voc768goPzXmMxCyYcKmj9SCoh3uMtESFbnWlBzEzx4SSSgxl9rBIOP0pZtPvgERfDXasHHfSwBjRThn2bz9jCinK8rgMip91sbkRMbuutW4ZLy9Eq1jUIwhFE+vZNqfJJhFMMSNgzBEEWjQipAiZ7BPzcKwVCPlc/s4lDIw2VgjtO/MfDPq4dgiAsJKX9uZQrfZFrHfQRDGnwxikrtKfUWwkFBiWzNea1Ac2iujNNB/gOhsBY/JxYPUAAAAABJRU5ErkJggg==" Reference="WicDaTARxUamZtE9tcUc5g/hH2zXr6n8Uy_chytZacK-Q" Selector="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" Url="https://www.naukri.com/nlogin/login" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eZ4gfv6yc0K6-U9TI6QE7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/nlogin/login" CVScreenId="772306a5-e631-4d37-b423-95f783590075" CvElementArea="1085, 434, 391, 55" CvType="InputBox" DesignTimeRectangle="1086, 435, 388, 53" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='usernameField' tag='INPUT' placeholder='Enter Email ID / Username' /&gt;" Guid="7d23b372-930a-4255-9019-e1b8ab1b50cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jobseeker&amp;apos;s Login: Search the Best Jobs available in India &amp;amp; Abroad - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6633d2035f6c4d5d42aac8c03b3ecea.jpg" xmlns="">0N9GbyDW9fkG4_j449PzvVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
