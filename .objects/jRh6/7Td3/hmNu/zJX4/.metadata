@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deepak Gupta",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "zJX4iv4pI0-rl5LjFv0rQQ",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/zJX4iv4pI0-rl5LjFv0rQQ",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/hmNu_8Pel0W9N39f18dcnQ",
+  "Created": "2026-02-12T02:34:59.7335435Z",
+  "Updated": "2026-02-12T02:34:59.7335435Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

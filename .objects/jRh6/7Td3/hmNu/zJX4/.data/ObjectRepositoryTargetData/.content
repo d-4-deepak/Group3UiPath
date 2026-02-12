@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k6tfMqvZ1U6qIbGNoQ8wvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="fcf2806f-ad4a-40c8-be0e-17b134aded15" CvTextArea="545, 384, 200, 32" CvTextArgument="Deepak Gupta" CvType="Text" DesignTimeRectangle="545, 376, 567, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Deepak Gupta' class='user-name ellipsis break-word line-clamp line-clamp-2 title-24-bold' innertext='Deepak Gupta' /&gt;" Guid="d273911b-941e-42a5-bbc0-53f83908bbca" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b5fad9af6f19d6bb70b66728ab74994e.jpg" xmlns="">01HsRRQ4uPU-iF_zpD68JFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

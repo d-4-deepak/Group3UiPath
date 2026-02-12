@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome My profile - Naukri.com",
+  "Type": "Screen",
+  "Id": "hmNu_8Pel0W9N39f18dcnQ",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/hmNu_8Pel0W9N39f18dcnQ",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/7Td3ZkS6oE26kXuGHXQyIQ",
+  "Created": "2026-02-12T02:32:39.3309105Z",
+  "Updated": "2026-02-12T02:32:39.3309105Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

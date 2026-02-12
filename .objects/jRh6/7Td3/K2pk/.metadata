@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Fresher Jobs - Resume Builder Service ",
+  "Type": "Screen",
+  "Id": "K2pk424TckCSDdXf4vBO3A",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/7Td3ZkS6oE26kXuGHXQyIQ",
+  "Created": "2026-02-12T02:55:05.4063024Z",
+  "Updated": "2026-02-12T02:55:05.4063024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

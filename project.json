@@ -54,6 +54,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b896776d-3c4e-455f-a993-50f0fcf35609",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "updateProfile.xaml"
       }
     ],
     "saveToCloud": false
