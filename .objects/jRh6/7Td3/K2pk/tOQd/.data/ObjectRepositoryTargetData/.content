@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qk7KUYjBnEOpTxVKkB6g2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="38d4540d-b0b8-4e87-9068-42ac58caa7d7" CvElementArea="487, 516, 639, 99" CvType="InputBox" DesignTimeRectangle="489, 516, 638, 100" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='details0' tag='TEXTAREA' type='' class='fn-inp-md' placeholder='Enter your learnings throughout the process of making the project and what you liked the most about it' aaname='Describe what the project was about' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c46bb962-0406-41b1-b14e-991402baf3c5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="38d4540d-b0b8-4e87-9068-42ac58caa7d7" CvTextArea="488, 494, 240, 13" CvTextArgument="Describe what the project was about" CvType="Text" DesignTimeRectangle="489, 492, 638, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Describe what the project was about' tag='LABEL' type='' class='formLabel' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Describe what the project was about' /&gt;" Guid="fb402bdd-0d55-47d3-82c6-5ebeeaec779f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d689901b331428e4e06db4dec21885f5.jpg" xmlns="">0iWiHVnTKvUWX3jlujI4x3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

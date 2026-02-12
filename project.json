@@ -61,6 +61,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "updateProfile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fabfe3fa-6622-4a3e-9bb1-ed8ac6d07e62",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "JobSearch.xaml"
       }
     ],
     "saveToCloud": false

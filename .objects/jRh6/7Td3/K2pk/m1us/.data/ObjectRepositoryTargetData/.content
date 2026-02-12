@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YJZpmqKdW0GZN2V8ZLfFiA" Reference="WicDaTARxUamZtE9tcUc5g/m1usSpW1fEOP08JKf4paQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/homepage" CVScreenId="5bc6f2e8-9fe8-4b09-8908-ec0c41f7cf4c" CvTextArea="1340, 224, 144, 13" CvTextArgument="View &amp; Update Profile" CvType="Text" DesignTimeRectangle="1341, 222, 246, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='nI-gNb-info__sub-link' tag='A' visibleinnertext='View &amp;amp; Update Profile' /&gt;" Guid="bcbc0212-adb0-4d70-9dfe-51bc23e754c3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fresher Jobs - Resume Builder Service - Interview Preparation - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4e330953c702eeee98e81d7de435e82.jpg" xmlns="">0818Epv4t90K0oPvuU1Ea3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

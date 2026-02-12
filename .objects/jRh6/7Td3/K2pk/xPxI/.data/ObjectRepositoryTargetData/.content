@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4WEb7OpeYU6NR8fqNSwqVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="48cf9627-3b89-48fb-afb3-7e2e749ec7b3" CvElementArea="640, 259, 21, 20" CvType="Icon" DesignTimeRectangle="643, 262, 14, 14" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl src='//static.naukimg.com/s/8/801/i/src/resources/svg/mnj-pencil.37ddbce9.svg' tag='IMG' parentclass='new-pencil' /&gt;" Guid="c660fe48-9e1c-4cf2-b556-8666b89b2ff3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPrZJZSwJRGIb9y0EXkSClgpmaTlS2QLTSItkyXeVFXVREdCFSFBQtEEWQmcts4swb34E5eGZGncQHhsN85zsP71kCGBABZ6Ff/iWyLAulu1ecX91D1QxhzrdI0wxIC8cYjWwgkswhFNtCra7yeV8iVTWQmj1EJitD15usNjm9j8Jpkff0FCmqzhaRyJbQGIxu4vL6gfd1FVH0CSmPqbkjtjVC05vIzMtIZ2W0Wibv7SgiSTSVY0lsCW0xOXMg1Gw8Rb9VxSVpKBriUt5TQrhEP5U6woldYQGli6X3OkoIQfRdrmEsvs0Ot13iTOeFIFpaK7AzoJsiKtUGlzgfoBMuMk0TI+PruCk+sX97i+3pusFFL29fGAou4/2jjMfnT4QTO0K6XnARvVIS0TccWsHi6olvCSEkOru4ZWP7Q/OL6/r7ZWCiP0fCy7RnAsEiAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="278, 237, 161, 206" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='root' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='38%' /&gt;" Guid="c83925fa-1c8c-484a-a1a8-4f6acf36a48a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="19264f04e815abceda051a9d4e4c2e20.jpg" xmlns="">0TIWoj62BMUSvZCxl3wDgdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

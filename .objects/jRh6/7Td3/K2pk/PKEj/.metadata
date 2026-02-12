@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT boardName0",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PKEjY9EBkkyUt_Ri7XyqNQ",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/PKEjY9EBkkyUt_Ri7XyqNQ",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T08:40:33.522172Z",
+  "Updated": "2026-02-12T08:40:33.522172Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

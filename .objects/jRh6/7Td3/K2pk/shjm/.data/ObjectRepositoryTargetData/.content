@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8d_DdxFbK06g7gvZ0O8dIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="b6161bdf-7791-4a79-8c69-8c8d000c39f3" CvElementArea="489, 634, 639, 42" CvType="InputBox" DesignTimeRectangle="489, 636, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mobile' matching:id='fuzzy' fuzzylevel:id='0.0' placeholder='Mobile number' aaname='Mobile number' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0c70b891-4a9d-42ef-84d2-3ef9c2dbe4ef" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1c042383075a2a46830fe9bfc6f28818.jpg" xmlns="">0zZOHqxRb80CA2zh_WKnfag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

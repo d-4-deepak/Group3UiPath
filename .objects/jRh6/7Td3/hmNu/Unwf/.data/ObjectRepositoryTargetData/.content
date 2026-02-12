@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pr6lD0bHZ0u8hYQqTUdNlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="a8d48d77-59c9-4826-b99b-01174fa09efb" CvTextArea="498, 764, 33, 13" CvTextArgument="2018" CvType="Text" DesignTimeRectangle="489, 752, 636, 38" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='6' parentname='schoolForm-0' tag='LI' /&gt;" Guid="9b3a17c5-3421-4202-a05d-4606afb08d14" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd42c958107175cec624fadaac153fce.jpg" xmlns="">0jZ6qSWWUZ0S63O0EANQi_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

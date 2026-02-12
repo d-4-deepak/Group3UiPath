@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll 'All about youFull name …'",
+  "Type": "Element",
+  "Id": "NvBhLoaWGk-13Ymbd0c36A",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/NvBhLoaWGk-13Ymbd0c36A",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/hmNu_8Pel0W9N39f18dcnQ",
+  "Created": "2026-02-12T07:10:46.5019415Z",
+  "Updated": "2026-02-12T07:10:46.5019415Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

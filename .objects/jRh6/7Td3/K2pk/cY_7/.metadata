@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Project URL (optional)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cY_7pFKDMkemDeV9cGom2Q",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/cY_7pFKDMkemDeV9cGom2Q",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T10:42:09.4879739Z",
+  "Updated": "2026-02-12T10:42:09.4879739Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

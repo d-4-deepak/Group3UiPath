@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Key skills used in the …",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "1NS2bCOzVEG0-QzLSDZ_5w",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/1NS2bCOzVEG0-QzLSDZ_5w",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T10:40:40.4681443Z",
+  "Updated": "2026-02-12T10:40:40.4681443Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

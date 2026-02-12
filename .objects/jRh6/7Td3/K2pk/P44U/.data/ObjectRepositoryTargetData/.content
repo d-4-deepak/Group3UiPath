@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="95rVEgc47UWtj-ztUViMvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="d65b9163-e09d-421d-b79e-412b326abb7a" CvElementArea="486, 408, 62, 36" CvTextArea="501, 419, 32, 13" CvTextArgument="Male" CvType="Button" DesignTimeRectangle="502, 439, 30, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Male' innertext='Male' visibleinnertext='Male' /&gt;" Guid="8151d2e6-34aa-4c04-b023-fe813b0c3e72" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="489, 408, 638, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='gender-container' tag='LABEL' type='' class='formLabel' aaname='Gender' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gender' /&gt;" Guid="78eb9a25-dd3e-4748-b579-683d2860aa4a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f59eb4708a1d676b0da44e79f9d1f34.jpg" xmlns="">0J3E9WCS4oUCi7IBMnnfqjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

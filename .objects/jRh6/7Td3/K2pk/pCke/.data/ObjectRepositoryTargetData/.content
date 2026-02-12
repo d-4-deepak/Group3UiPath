@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VncsAN7I9kOtCCAt1qMJBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="48cf9627-3b89-48fb-afb3-7e2e749ec7b3" CvElementArea="640, 259, 21, 20" CvType="Icon" DesignTimeRectangle="643, 252, 14, 30" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='new-pencil' tag='SPAN' /&gt;" Guid="57e244bd-8c0a-4254-b59a-a63a37ecbe54" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAiCAYAAABStIn6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFYSURBVEhL7ZJZSwJRGIb9y0EXkSClgpmaTlS2QLTSItliV3lRFxURXYgUBUULRBFk5jKL4swb34E5eMbRGaSbYh4YDvOd7zy8Z/Hhl/BZC/3iiZzxRM78cZFhGCjePOP04haK2hDmXItUtQFp7hDDoTWE4hkEIhuo1hQ+70qkKA0kpveRSuegaU1WG5/cRf64wHscRbKisUUkMiU0+sPrOL+84309RRR9TMpiYuaAbY1QtSZSszkk0zm0Wjrv7SoiSTiRYUlMCW0xPrUn1ExsRd8VuUNSl1VEpaythOgQfZVrCMa2hQWULpLc6SohBNFnqYqR6CY73HaJNZ0dgmhhJc/OgG6KKFfqXGJ9gFa4SNd1DI2u4qrwwP7NLban6wUXPb18YMC/iNe3Eu4f3xGMbQnpnOAieqUkom8wsIT55SPXEkJIdHJ2zcb2h+aWjuvvF0/kzD8W/QBCi0d/Im1rMwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="294, 275, 130, 130" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='user-image' tag='IMG' /&gt;" Guid="c0e4e1c9-966e-413b-8c6d-0a0abcfdfc32" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a13a12b4b8e591bbe908b12cf4c9e7ac.jpg" xmlns="">0zFb20Iha9kil1bxrGJSyaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

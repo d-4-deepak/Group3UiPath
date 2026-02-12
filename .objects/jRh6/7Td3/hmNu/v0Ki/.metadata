@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll 'ProjectsShowcase your t…'",
+  "Type": "Element",
+  "Id": "v0KiewfVp0GJ8E0CDAqhWA",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/v0KiewfVp0GJ8E0CDAqhWA",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/hmNu_8Pel0W9N39f18dcnQ",
+  "Created": "2026-02-12T10:41:48.2139956Z",
+  "Updated": "2026-02-12T10:41:48.2139956Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

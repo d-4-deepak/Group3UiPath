@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y5_CiZuZak-4NhmbVsmy8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="612ad9b5-3f34-4c93-9b67-8babe67be86a" CvElementArea="488, 684, 640, 44" CvType="InputBox" DesignTimeRectangle="490, 686, 636, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='keySkillSugg' tag='INPUT' type='text' class='sugInp noBorder' placeholder='Enter keyskills used in the project.' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2af99d29-fc28-4211-9a4c-b416d6cb14b2" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="612ad9b5-3f34-4c93-9b67-8babe67be86a" CvTextArea="488, 662, 250, 17" CvTextArgument="Key skills used in the project (optional)" CvType="Text" DesignTimeRectangle="489, 661, 638, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Key skills used in the project (optional)' tag='LABEL' type='' class='formLabel' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Key skills used in the project (optional)' /&gt;" Guid="8abbe8ae-6a69-4a26-8e77-7dda4c431347" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f1f6c62f5216f5871dd19e006b0f928.jpg" xmlns="">0wfMiNjMwckiABXV7dZvLKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xp3HlODuWkuSZLvNzaayIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="6cc059fa-f7ec-469f-ba72-5814db01ddb8" CvElementArea="640, 259, 21, 20" CvType="Icon" DesignTimeRectangle="643, 262, 14, 14" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl src='//static.naukimg.com/s/8/801/i/src/resources/svg/mnj-pencil.37ddbce9.svg' tag='IMG' /&gt;" Guid="4e8d9e92-4bc9-40be-bde9-424fff137ed9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPrZJZSwJRGIb9y0EXkSClgpmaTlS2QLTSItkyXeVFXVREdCFSFBQtEEWQmcts4swb34E5eGZGncQHhsN85zsP71kCGBABZ6Ff/iWyLAulu1ecX91D1QxhzrdI0wxIC8cYjWwgkswhFNtCra7yeV8iVTWQmj1EJitD15usNjm9j8Jpkff0FCmqzhaRyJbQGIxu4vL6gfd1FVH0CSmPqbkjtjVC05vIzMtIZ2W0Wibv7SgiSTSVY0lsCW0xOXMg1Gw8Rb9VxSVpKBriUt5TQrhEP5U6woldYQGli6X3OkoIQfRdrmEsvs0Ot13iTOeFIFpaK7AzoJsiKtUGlzgfoBMuMk0TI+PruCk+sX97i+3pusFFL29fGAou4/2jjMfnT4QTO0K6XnARvVIS0TccWsHi6olvCSEkOru4ZWP7Q/OL6/r7ZWCiP0fCy7RnAsEiAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="278, 237, 161, 206" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='root' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='38%' /&gt;" Guid="fd31ad0b-2edb-4316-8a8d-c05522cd891c" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="5" Y="-6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="68742a17e19eecafb1ec6473ca600bc2.jpg" xmlns="">0133oFMFyrEuz5AZwOSFsAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

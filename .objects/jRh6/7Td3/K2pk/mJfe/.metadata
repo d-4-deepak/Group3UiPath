@@ -1,0 +1,13 @@
+﻿{
+  "Name": "2026",
+  "Type": "Element",
+  "Id": "mJfeCine5UW2bwtBMnLVDA",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/mJfeCine5UW2bwtBMnLVDA",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T10:12:55.1063009Z",
+  "Updated": "2026-02-12T10:12:55.1063009Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

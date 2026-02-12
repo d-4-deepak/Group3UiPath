@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT birthDate",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "fd2c-St_j0qutSYDH9cDuQ",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/fd2c-St_j0qutSYDH9cDuQ",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T06:50:48.499487Z",
+  "Updated": "2026-02-12T06:50:48.499487Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

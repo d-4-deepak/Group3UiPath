@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT completionYear0",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "MG6cCKh8-U61aPDgwcJj9w",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/MG6cCKh8-U61aPDgwcJj9w",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T08:48:17.6085323Z",
+  "Updated": "2026-02-12T08:48:17.6085323Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="k6tfMqvZ1U6qIbGNoQ8wvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="H-c4SQA3y0Gy43Q3yXxlhA" Reference="WicDaTARxUamZtE9tcUc5g/zJX4iv4pI0-rl5LjFv0rQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="fcf2806f-ad4a-40c8-be0e-17b134aded15" CvTextArea="545, 384, 200, 32" CvTextArgument="Deepak Gupta" CvType="Text" DesignTimeRectangle="545, 376, 567, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Deepak Gupta' class='user-name ellipsis break-word line-clamp line-clamp-2 title-24-bold' innertext='Deepak Gupta' /&gt;" Guid="d273911b-941e-42a5-bbc0-53f83908bbca" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="b5fad9af6f19d6bb70b66728ab74994e.jpg" xmlns="">01HsRRQ4uPU-iF_zpD68JFA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="1e5b38fb-2682-4182-9034-47e33180592b" CvElementArea="1281, 108, 89, 48" CvType="Button" DesignTimeRectangle="1333, 119, 26, 26" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='nI-gNb-icon-img' tag='IMG' /&gt;" Guid="5c2ac3fe-2935-4ec8-961c-18508ab09d8c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7bd7df27a2014cbf1b46a8fd9f010c37.jpg" xmlns="">058ZDVwelU0CyVPqm60Ejug</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

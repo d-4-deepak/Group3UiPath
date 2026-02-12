@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll 'EducationAdding your ed…'",
+  "Type": "Element",
+  "Id": "UnwfeTdzLEipTAu9hvP0gQ",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/UnwfeTdzLEipTAu9hvP0gQ",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/hmNu_8Pel0W9N39f18dcnQ",
+  "Created": "2026-02-12T09:51:35.5613198Z",
+  "Updated": "2026-02-12T09:51:35.5613198Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

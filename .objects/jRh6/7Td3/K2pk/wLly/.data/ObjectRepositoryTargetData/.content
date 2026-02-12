@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CsYzOie460S5HJnHaf-djA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" DesignTimeRectangle="439, 266, 738, 528" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='sscDetails_Modal' tag='DIV' /&gt;" Guid="761dfc04-bcb2-429c-9b18-3c39cd610998" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7d6200f758e5e78f02d891c62bef0e58.jpg" xmlns="">0Q9peyuBVlEqVqLjfdTUCGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IfZoKRBTHU6GsiRVN2V1Bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="dd9d30b3-1cbb-4b14-9928-01934d8822d1" DesignTimeRectangle="489, 547, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='homeTown' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' placeholder='Enter your current hometown' aaname='Hometown' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c66b70c7-e518-4876-9922-bee9f0d40eb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="848b9cf92ae310d3c1b5c7e449b31a8f.jpg" xmlns="">0kAhgMsY82E23rHoDmBri_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

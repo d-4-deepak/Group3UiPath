@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WHyqRSos6UmJRdqdpKGhAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="f38c19d4-73e2-46ca-b557-ca72443c2e22" DesignTimeRectangle="506, 632, 604, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' placeholder='YYYY' aaname='Passing year' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4b63c8ed-161b-45dd-b98f-4a6acb90589d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="5b51122be4913471e1d36f1cd86cc0a5.jpg" xmlns="">0rpbTnxea1kK8N2WqaU4tew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

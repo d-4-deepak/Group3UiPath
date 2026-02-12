@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mrZnCMs-Fky_X8GJrJbHYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="9237af29-7e82-46b9-8136-3f0091cf2271" CvElementArea="490, 634, 637, 42" CvType="InputBox" DesignTimeRectangle="489, 635, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='url0' tag='INPUT' type='' class='fn-inp-md' placeholder='Enter the website link of your project' aaname='Project URL (optional)' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="17c13df6-ce7e-4ef4-9173-e9ca360c8c4e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9237af29-7e82-46b9-8136-3f0091cf2271" CvTextArea="488, 613, 144, 17" CvTextArgument="Project URL (optional)" CvType="Text" DesignTimeRectangle="489, 611, 638, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Project URL (optional)' tag='LABEL' type='' class='formLabel' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Project URL (optional)' /&gt;" Guid="9d916ec9-5bb5-4b18-91ee-70847dd628e9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1fe8b9deee305f23d037cddb4c6109f.jpg" xmlns="">0xHcHidPR7Uq3lLFGvOWmGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VYrMExAZ1keeq_-_XPZuLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="65ff3661-1310-44a5-80b3-76c2f88f47b1" CvElementArea="643, 425, 152, 43" CvType="InputBox" DesignTimeRectangle="765, 445, 20, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentname='projectForm0' tag='SPAN' /&gt;" Guid="9e524447-2b72-4345-bc0f-20b730e90820" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="061aabff408ddcdaf4d15e70a8f49216.jpg" xmlns="">0zDb6eXAja0qhAvQthqnYjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

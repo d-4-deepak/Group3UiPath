@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GFe0KhT_s0ejwYzAQoYUtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="e0c46349-1a47-45f5-9c85-7da54d6fc8d2" CvType="AnyWordGroup" DesignTimeRectangle="489, 391, 58, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='text' tag='SPAN' aaname='Ludhiana' innertext='Ludhiana' /&gt;" Guid="d7814675-c1a7-49eb-9c2a-bcce89d56b63" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a3864ddff54a01371041b09da4b7f90b.jpg" xmlns="">0yxttIgERF0GpyeQl0FA9BA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

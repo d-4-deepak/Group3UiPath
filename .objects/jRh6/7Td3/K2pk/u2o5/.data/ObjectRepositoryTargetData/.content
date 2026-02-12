@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LPjZDuzk00yT6RruYTwo-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="7826bad2-73bc-4ee8-98a2-16174cbbda18" DesignTimeRectangle="532, 549, 731, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='sscDetails-sscDetails' aaname='Add Class XII Details' innertext='Add Class XII Details' visibleinnertext='Add Class XII Details' /&gt;" Guid="00e452e7-cf9f-4597-942c-5fd305cc7602" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a2315b28ec5e908ad3b8044505e82e85.jpg" xmlns="">0gqwioLaEJ06C9MavfvkAyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

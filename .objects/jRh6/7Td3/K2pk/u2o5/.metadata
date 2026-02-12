@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Class XII Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "u2o5FLz04E6PIEoCAXjQrw",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/u2o5FLz04E6PIEoCAXjQrw",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T08:39:16.7317171Z",
+  "Updated": "2026-02-12T08:39:16.7317171Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

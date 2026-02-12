@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT actualPercentage0",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yKTq_9s55EO3CcuJf35l6w",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/yKTq_9s55EO3CcuJf35l6w",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T08:47:14.5334123Z",
+  "Updated": "2026-02-12T08:47:14.5334123Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

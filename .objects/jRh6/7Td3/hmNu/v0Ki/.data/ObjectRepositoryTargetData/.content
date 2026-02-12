@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jhVIBpXr002ov_dtCIzogQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="380ecb91-bd3e-41be-a031-af298beaba03" CvElementArea="1023, 702, 107, 44" CvTextArea="965, 716, 129, 15" CvTextArgument="Cancel Save" CvType="Button" DesignTimeRectangle="489, 703, 638, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='btn-container' parentid='project' tag='DIV' /&gt;" Guid="34160209-b55f-4060-9389-4fe967ab3550" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc7c246c3571d59d2b089a1a27cbd33c.jpg" xmlns="">0yVDgQiQ7l0ey-e4TpuKYLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

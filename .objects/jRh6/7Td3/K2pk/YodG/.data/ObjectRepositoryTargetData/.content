@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2cgDiVhT3Uq4MPvWGcp7Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="e52f6c16-6fe5-46c8-b48a-c72f3e8e3e78" CvElementArea="491, 320, 636, 41" CvType="InputBox" DesignTimeRectangle="489, 321, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='name' tag='INPUT' type='' class='fn-inp-md reachable' placeholder='What’s your good name?' aaname='Full name ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c2b27c0c-ea03-4d0e-82f6-bba048a3ca27" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e52f6c16-6fe5-46c8-b48a-c72f3e8e3e78" CvTextArea="488, 299, 64, 13" CvTextArgument="Full name" CvType="Text" DesignTimeRectangle="489, 297, 638, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='formLabel' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Full name ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Full name' /&gt;" Guid="97a9d46d-acfd-43d7-9e7b-4d9440318a8a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="adbce9da7903687850b960d22ccccda7.jpg" xmlns="">08fQJC8CIhUuG4pqRH4gilg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

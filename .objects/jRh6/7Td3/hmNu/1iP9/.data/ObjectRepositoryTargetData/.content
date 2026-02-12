@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ycmP2W8JQU6ZnHcHDjirJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="8099f620-4420-488b-a19d-7762b808fc47" CvTextArea="530, 551, 137, 13" CvTextArgument="Add Class XII Details" CvType="Text" DesignTimeRectangle="532, 549, 731, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='sscDetails-sscDetails' aaname='Add Class XII Details' innertext='Add Class XII Details' visibleinnertext='Add Class XII Details' /&gt;" Guid="ec3aceb6-b58a-4c6f-a337-0de4604045b5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a2315b28ec5e908ad3b8044505e82e85.jpg" xmlns="">0myapHiROM0qoqLO8LkCaoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

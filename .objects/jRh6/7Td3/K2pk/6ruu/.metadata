@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cancel(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6ruuNnAluU6e7UuxNDQntA",
+  "Reference": "WicDaTARxUamZtE9tcUc5g/6ruuNnAluU6e7UuxNDQntA",
+  "ParentRef": "WicDaTARxUamZtE9tcUc5g/K2pk424TckCSDdXf4vBO3A",
+  "Created": "2026-02-12T10:42:54.1024193Z",
+  "Updated": "2026-02-12T10:42:54.1024193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
