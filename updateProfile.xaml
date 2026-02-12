@@ -98,45 +98,45 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="885,14077" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="879.6,14084" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Fresher Jobs - Resume Builder Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,14054" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Fresher Jobs - Resume Builder Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="521.6,14060.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,13860" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,13867.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/homepage" CVScreenId="93c886a0-ea63-4d99-9071-efa55c1ec2d9" ContentHash="Se_188L-DE2OPWOca2izlw" CvElementArea="1559, 134, 110, 60" CvType="Button" DesignTimeRectangle="1623, 147, 32, 33" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='nI-gNb-icon-img' tag='IMG' aaname='naukri user profile img' alt='naukri user profile img' /&gt;" Guid="63e14dc9-a976-4182-acd1-1eee8a4cc624" InformativeScreenshot="a0ef03293df9664ca23201596d85882c.jpg" Reference="WicDaTARxUamZtE9tcUc5g/YxbfrXTuRk-mwFlWi394kQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fresher Jobs - Resume Builder Service - Interview Preparation - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Deepak Gupta'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,13598" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Deepak Gupta'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,13605.6" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,12737" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,12745.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View &amp; Update Profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View &amp; Update Profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/homepage" CVScreenId="3b65ade6-652b-494d-8c37-cd7e61125f64" ContentHash="L_LEv7pn306Qf9KBjaEjhw" CvTextArea="1340, 224, 144, 13" CvTextArgument="View &amp; Update Profile" CvType="Text" DesignTimeRectangle="1341, 222, 246, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='nI-gNb-info__sub-link' aaname='View &amp;amp; Update Profile' innertext='View &amp;amp; Update Profile' /&gt;" Guid="7adcc77b-1cca-4501-8b38-9c57ff9d24cb" InformativeScreenshot="c8e16df2c7324836e7863397d1149283.jpg" Reference="WicDaTARxUamZtE9tcUc5g/P0TakqWhpEyTl7ymY0itZg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fresher Jobs - Resume Builder Service - Interview Preparation - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NCheckState DisplayName="Check App State 'SPAN'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,12475" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                  <uix:NCheckState DisplayName="Check App State 'SPAN'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,12484" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,11487" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,11497.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="actualCurrentLocation" />
                           <Variable x:TypeArguments="x:String" Name="stateSelector" />
@@ -158,7 +158,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click '38%'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click '38%'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="48cf9627-3b89-48fb-afb3-7e2e749ec7b3" ContentHash="4WEb7OpeYU6NR8fqNSwqVA" CvElementArea="640, 259, 21, 20" CvType="Icon" DesignTimeRectangle="643, 262, 14, 14" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl src='//static.naukimg.com/s/8/801/i/src/resources/svg/mnj-pencil.37ddbce9.svg' tag='IMG' parentclass='new-pencil' /&gt;" Guid="c660fe48-9e1c-4cf2-b556-8666b89b2ff3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPrZJZSwJRGIb9y0EXkSClgpmaTlS2QLTSItkyXeVFXVREdCFSFBQtEEWQmcts4swb34E5eGZGncQHhsN85zsP71kCGBABZ6Ff/iWyLAulu1ecX91D1QxhzrdI0wxIC8cYjWwgkswhFNtCra7yeV8iVTWQmj1EJitD15usNjm9j8Jpkff0FCmqzhaRyJbQGIxu4vL6gfd1FVH0CSmPqbkjtjVC05vIzMtIZ2W0Wibv7SgiSTSVY0lsCW0xOXMg1Gw8Rb9VxSVpKBriUt5TQrhEP5U6woldYQGli6X3OkoIQfRdrmEsvs0Ot13iTOeFIFpaK7AzoJsiKtUGlzgfoBMuMk0TI+PruCk+sX97i+3pusFFL29fGAou4/2jjMfnT4QTO0K6XnARvVIS0TccWsHi6olvCSEkOru4ZWP7Q/OL6/r7ZWCiP0fCy7RnAsEiAAAAAElFTkSuQmCC" InformativeScreenshot="19264f04e815abceda051a9d4e4c2e20.jpg" Reference="WicDaTARxUamZtE9tcUc5g/xPxIL1lF6UaNqBwQqhQcGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
                               <uix:TargetAnchorable.Anchors>
@@ -169,7 +169,7 @@
                             </uix:TargetAnchorable>
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Full name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Full name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="e52f6c16-6fe5-46c8-b48a-c72f3e8e3e78" ContentHash="2cgDiVhT3Uq4MPvWGcp7Ew" CvElementArea="491, 320, 636, 41" CvType="InputBox" DesignTimeRectangle="489, 321, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='name' tag='INPUT' type='' class='fn-inp-md reachable' placeholder='What’s your good name?' aaname='Full name ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c2b27c0c-ea03-4d0e-82f6-bba048a3ca27" InformativeScreenshot="adbce9da7903687850b960d22ccccda7.jpg" IsResponsive="True" Reference="WicDaTARxUamZtE9tcUc5g/YodGH7PdBUqaOtEZL9c63w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -184,18 +184,8 @@
                               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">in_data["Full name"]</CSharpValue>
                             </InArgument>
                           </uix:NTypeInto.Text>
-                          <uix:NTypeInto.VerifyOptions>
-                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionTypeIntoOptions.Retry>
-                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                            </uix:VerifyExecutionTypeIntoOptions>
-                          </uix:NTypeInto.VerifyOptions>
                         </uix:NTypeInto>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Male'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Male'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="d65b9163-e09d-421d-b79e-412b326abb7a" ContentHash="95rVEgc47UWtj-ztUViMvA" CvElementArea="486, 408, 62, 36" CvTextArea="501, 419, 32, 13" CvTextArgument="Male" CvType="Button" DesignTimeRectangle="502, 439, 30, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Male' innertext='Male' visibleinnertext='Male' /&gt;" Guid="8151d2e6-34aa-4c04-b023-fe813b0c3e72" InformativeScreenshot="2f59eb4708a1d676b0da44e79f9d1f34.jpg" Reference="WicDaTARxUamZtE9tcUc5g/P44Uar1-Ck2UgIUBVLoYgA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
                               <uix:TargetAnchorable.Anchors>
@@ -206,7 +196,7 @@
                             </uix:TargetAnchorable>
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT birthDate'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT birthDate'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="6f183d9c-c450-4b63-b691-de7a0b67d186" ContentHash="EJvgUV5vp0OC2lkyvk7b-w" CvElementArea="489, 511, 638, 42" CvType="InputBox" DesignTimeRectangle="489, 513, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='birthDate' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' aaname='Date of birth (DD/MM/YYYY)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' name='birthDate' /&gt;" Guid="a14c0ee3-a0a9-486f-885a-81d9f7890218" InformativeScreenshot="91aa90eb3ff27ead03bf8dca546d403b.jpg" Reference="WicDaTARxUamZtE9tcUc5g/fd2c-St_j0qutSYDH9cDuQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
                           </uix:NTypeInto.Target>
@@ -216,7 +206,7 @@
                             </InArgument>
                           </uix:NTypeInto.Text>
                         </uix:NTypeInto>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Ludhiana'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Ludhiana'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="94b17d35-d038-47f9-b6d0-19df0a74f355" ContentHash="buC4HKH1o0mp2yTmfVGzTg" DesignTimeRectangle="489, 458, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='city' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' placeholder='Enter your current location' aaname='Current location' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f7be68c1-0602-4d21-9a74-eeb9c646f94a" InformativeScreenshot="6f2d7208ea34331516ab8d1a8eb92944.jpg" Reference="WicDaTARxUamZtE9tcUc5g/ubBclNvmc0CYTvuEPYltUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NTypeInto.Target>
@@ -225,18 +215,8 @@
                               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">in_data["CurrentLocation"]</CSharpValue>
                             </InArgument>
                           </uix:NTypeInto.Text>
-                          <uix:NTypeInto.VerifyOptions>
-                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionTypeIntoOptions.Retry>
-                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                            </uix:VerifyExecutionTypeIntoOptions>
-                          </uix:NTypeInto.VerifyOptions>
                         </uix:NTypeInto>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'All about youFull name …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,391" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'All about youFull name …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,390.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NMouseScroll.SearchedElement>
                             <uix:SearchedElement>
                               <uix:SearchedElement.InUiElement>
@@ -257,7 +237,7 @@
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" ContentHash="xSiIipIBsUm4OAxpR77Riw" DesignTimeRectangle="439, 172, 738, 612" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='personalDetailsModal' tag='DIV' /&gt;" Guid="2fa278a4-4d98-4778-aa39-2335dae16433" InformativeScreenshot="95be23f3028e30de2af7d86a3af59ba3.jpg" Reference="WicDaTARxUamZtE9tcUc5g/lHpjN0cEBkaY6c10zKGRqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NMouseScroll.Target>
                         </uix:NMouseScroll>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT homeTown'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT homeTown'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="dd9d30b3-1cbb-4b14-9928-01934d8822d1" ContentHash="IfZoKRBTHU6GsiRVN2V1Bw" DesignTimeRectangle="489, 547, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='homeTown' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' placeholder='Enter your current hometown' aaname='Hometown' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c66b70c7-e518-4876-9922-bee9f0d40eb6" InformativeScreenshot="848b9cf92ae310d3c1b5c7e449b31a8f.jpg" Reference="WicDaTARxUamZtE9tcUc5g/B05-9HNi9k6jAXSXPVeVSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NTypeInto.Target>
@@ -266,18 +246,8 @@
                               <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">in_data["Hometown"]</CSharpValue>
                             </InArgument>
                           </uix:NTypeInto.Text>
-                          <uix:NTypeInto.VerifyOptions>
-                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionTypeIntoOptions.Retry>
-                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                            </uix:VerifyExecutionTypeIntoOptions>
-                          </uix:NTypeInto.VerifyOptions>
                         </uix:NTypeInto>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '8437345930'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '8437345930'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="b6161bdf-7791-4a79-8c69-8c8d000c39f3" ContentHash="8d_DdxFbK06g7gvZ0O8dIw" CvElementArea="489, 634, 639, 42" CvType="InputBox" DesignTimeRectangle="489, 636, 638, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mobile' matching:id='fuzzy' fuzzylevel:id='0.0' placeholder='Mobile number' aaname='Mobile number' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0c70b891-4a9d-42ef-84d2-3ef9c2dbe4ef" InformativeScreenshot="1c042383075a2a46830fe9bfc6f28818.jpg" Reference="WicDaTARxUamZtE9tcUc5g/shjmjNaboEy_wW18Kh_Dkw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
                           </uix:NTypeInto.Target>
@@ -683,12 +653,12 @@
                             </InArgument>
                           </Assign.Value>
                         </Assign>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click '2026(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click '2026(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" ContentHash="czoXrXs7T0m3I3-sb5TQig" DesignTimeRectangle="979, 505, 146, 38" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentname='projectForm0' tag='LI' aaname='2025' /&gt;" Guid="ea8d9872-7219-4a30-8be3-5722e240fbcf" InformativeScreenshot="087bc8f4a3626f1b06edfe019b840bb0.jpg" Reference="WicDaTARxUamZtE9tcUc5g/vcxfwLBrm0GbiF_QKBxRxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Describe what the proje…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Describe what the proje…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="SameAsCard" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="38d4540d-b0b8-4e87-9068-42ac58caa7d7" ContentHash="Qk7KUYjBnEOpTxVKkB6g2A" CvElementArea="487, 516, 639, 99" CvType="InputBox" DesignTimeRectangle="489, 516, 638, 100" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='details0' tag='TEXTAREA' type='' class='fn-inp-md' placeholder='Enter your learnings throughout the process of making the project and what you liked the most about it' aaname='Describe what the project was about' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c46bb962-0406-41b1-b14e-991402baf3c5" InformativeScreenshot="d689901b331428e4e06db4dec21885f5.jpg" IsResponsive="True" Reference="WicDaTARxUamZtE9tcUc5g/tOQdgDLerEmBIrLankJS1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -714,7 +684,7 @@
                             </uix:VerifyExecutionTypeIntoOptions>
                           </uix:NTypeInto.VerifyOptions>
                         </uix:NTypeInto>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'ProjectsShowcase your t…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,391" sap2010:WorkflowViewState.IdRef="NMouseScroll_5" InteractionMode="HardwareEvents" MovementUnits="4" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'ProjectsShowcase your t…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,390.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_5" InteractionMode="HardwareEvents" MovementUnits="4" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NMouseScroll.SearchedElement>
                             <uix:SearchedElement>
                               <uix:SearchedElement.InUiElement>
@@ -735,12 +705,12 @@
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" ContentHash="9bWgtxBS9EqGuwNfCnttaA" DesignTimeRectangle="439, 172, 738, 612" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='projectsDetails_Modal' tag='DIV' /&gt;" Guid="81423744-b037-4beb-b7f8-ce21c5e2ca19" InformativeScreenshot="e8238cc4452bd6452f863323a3fc6f00.jpg" Reference="WicDaTARxUamZtE9tcUc5g/xhoD_HLmFkKjllEFRiOGLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NMouseScroll.Target>
                         </uix:NMouseScroll>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="3d80ac27-a617-457d-ad90-5a54967d4d48" ContentHash="7wa76RqvN0KCQRQZwWA3FA" CvElementArea="1024, 703, 106, 43" CvTextArea="1058, 716, 37, 15" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1027, 703, 100, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit-btn' tag='BUTTON' /&gt;" Guid="53e31213-e264-4216-94ab-a0e22460a9e0" InformativeScreenshot="e841e26a8431244e9f320f8714f12213.jpg" Reference="WicDaTARxUamZtE9tcUc5g/6ruuNnAluU6e7UuxNDQntA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_6" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,318.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_6" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NMouseScroll.SearchedElement>
                             <uix:SearchedElement>
                               <uix:SearchedElement.InUiElement>
@@ -758,12 +728,12 @@
                             </uix:SearchedElement>
                           </uix:NMouseScroll.SearchedElement>
                         </uix:NMouseScroll>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mouse Scroll(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mouse Scroll(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" ContentHash="O9PdUJEw_0WmHBsJJS-KEA" DesignTimeRectangle="874, 444, 128, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Upload resume' tag='BUTTON' /&gt;" Guid="8b583163-a7c2-4482-b1e8-d66c01cf64b7" InformativeScreenshot="1a13c0f46a8756142672642d71484522.jpg" Reference="WicDaTARxUamZtE9tcUc5g/joWP6yR-ZUqZt4OJsugd9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_15" InteractionMode="HardwareEvents" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Text="C:\Users\Testing\Downloads\user_details.pdf" Version="V5">
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_15" InteractionMode="HardwareEvents" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTypeInto.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="f5b44688-b87e-448a-bc50-7220f752761d" ContentHash="Q_QYvhCjZ0y2Qwxwesfd8Q" CvElementArea="195, 399, 381, 26" CvType="InputBox" DesignTimeRectangle="197, 400, 378, 24" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="ef3c4337-d3a4-4cfd-b821-9977062df886" InformativeScreenshot="a4ad12f36e347692fc07d6e8d250621d.jpg" Reference="WicDaTARxUamZtE9tcUc5g/StIFuXKppUa9gns7FjzntA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                               <uix:TargetAnchorable.Anchors>
@@ -773,6 +743,11 @@
                               </uix:TargetAnchorable.Anchors>
                             </uix:TargetAnchorable>
                           </uix:NTypeInto.Target>
+                          <uix:NTypeInto.Text>
+                            <InArgument x:TypeArguments="x:String">
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61">@"C:\Users\mrdee\Downloads\T4_Testers_Profile.pdf"</CSharpValue>
+                            </InArgument>
+                          </uix:NTypeInto.Text>
                           <uix:NTypeInto.VerifyOptions>
                             <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
                               <uix:VerifyExecutionTypeIntoOptions.Retry>
@@ -784,7 +759,7 @@
                             </uix:VerifyExecutionTypeIntoOptions>
                           </uix:NTypeInto.VerifyOptions>
                         </uix:NTypeInto>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,188.8" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="naukri.com/mnjuser/profile" CVScreenId="60d3f72b-a135-4c3f-a047-d9ead44582ac" ContentHash="wWzW5yqjwUuDX31EsE2LYw" CvElementArea="587, 429, 89, 26" CvType="InputBox" DesignTimeRectangle="587, 429, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" Guid="310cb864-ebb3-4875-a992-eb088a4c1bf3" InformativeScreenshot="19135855d8618789e728e9158a815ef6.jpg" Reference="WicDaTARxUamZtE9tcUc5g/US9BJYrVPEqEd5_e0c55FA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NClick.Target>
@@ -792,27 +767,27 @@
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,642" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,640.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshotProfile.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,281" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                        <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshotProfile.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,280.8" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                           <uix:NTakeScreenshot.FileNameMode>
                             <InArgument x:TypeArguments="uix:NFileNameMode">
                               <CSharpValue x:TypeArguments="uix:NFileNameMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">UiPath.UIAutomationNext.Enums.NFileNameMode.Index</CSharpValue>
                             </InArgument>
                           </uix:NTakeScreenshot.FileNameMode>
                         </uix:NTakeScreenshot>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"Profile page did not open"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <Throw sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="Throw_2">
+                        <Throw sap:VirtualizedContainerService.HintSize="416,117.6" sap2010:WorkflowViewState.IdRef="Throw_2">
                           <InArgument x:TypeArguments="s:Exception">
                             <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">new Exception("FAILED: Unable to navigate to profile page")</CSharpValue>
                           </InArgument>
@@ -832,20 +807,20 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,515" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,514.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,281" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,280.8" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="41fe172f-e759-420c-a9cd-3f5983274bcf" Version="V5">
                     <uix:NTakeScreenshot.FileNameMode>
                       <InArgument x:TypeArguments="uix:NFileNameMode">
                         <CSharpValue x:TypeArguments="uix:NFileNameMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">UiPath.UIAutomationNext.Enums.NFileNameMode.Index</CSharpValue>
                       </InArgument>
                     </uix:NTakeScreenshot.FileNameMode>
                   </uix:NTakeScreenshot>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Fatal">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Fatal">
                     <ui:LogMessage.Message>
                       <InArgument x:TypeArguments="x:Object">
                         <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"profile clicking get Failed"</CSharpValue>
