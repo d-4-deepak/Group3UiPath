@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="LPjZDuzk00yT6RruYTwo-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="LiLs_tacAU-M042NBxG9jQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="7826bad2-73bc-4ee8-98a2-16174cbbda18" DesignTimeRectangle="532, 549, 731, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='sscDetails-sscDetails' aaname='Add Class XII Details' innertext='Add Class XII Details' visibleinnertext='Add Class XII Details' /&gt;" Guid="00e452e7-cf9f-4597-942c-5fd305cc7602" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="a2315b28ec5e908ad3b8044505e82e85.jpg" xmlns="">0gqwioLaEJ06C9MavfvkAyw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="93c0aa7c-6955-43ca-af3c-7d718cfc43bc" CvTextArea="622, 570, 71, 17" CvTextArgument="Class XII" CvType="Text" DesignTimeRectangle="624, 567, 913, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Class XII ' innertext='Class XII ' visibleinnertext='Class XII' /&gt;" Guid="12e2410d-c82e-4e0c-9f11-4b3726285fec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="40099c2140df1bc1ae6ac0ac142399e1.jpg" xmlns="">0IuRfVAuMD0iAX9KwMQQJdg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

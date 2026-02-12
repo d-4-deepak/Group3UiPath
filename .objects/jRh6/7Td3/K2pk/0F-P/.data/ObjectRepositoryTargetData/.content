@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="GPQVznCwUEuhxARuMSSYVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="NIiN4ZMa6EyHXHeApM9Ucw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="3add0fd1-bced-4dd0-97d6-225c5b2c0357" CvTextArea="964, 727, 47, 13" CvTextArgument="Cancel" CvType="Text" DesignTimeRectangle="966, 725, 45, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='school' tag='SPAN' /&gt;" Guid="d0f6969a-2da2-4c9f-807b-a64ea2cb5163" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="5fe9f705d0eefaaecacc48f5f380b6cc.jpg" xmlns="">0-dLDn6U940GUeP2Rs1wtmA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="naukri.com/mnjuser/profile" CVScreenId="05b72502-8900-4b58-a3c7-58387e56912e" CvElementArea="1239, 835, 133, 54" CvTextArea="1281, 852, 46, 18" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1243, 836, 125, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit-btn' tag='BUTTON' aaname='Save' innertext='Save' /&gt;" Guid="975f1774-9433-49f6-8616-fdfcffadc327" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My profile - Naukri.com' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e0c488aa21266ae0508b1a06153cd73e.jpg" xmlns="">0PzWraA5EOUWD47JddpAYtQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
